@@ -26,7 +26,7 @@ var animationArr = [];
 var boomimg = null; //爆炸图片
 var boomarr = [];
 for (var i = 1; i < 20; i++) {
-  var src = "./images/explosion";
+  var src = "images/explosion";
   boomimg = new Image();
   boomimg.src = src + i + ".png";
   boomarr.push(boomimg);

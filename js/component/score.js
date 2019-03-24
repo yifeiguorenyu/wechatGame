@@ -22,7 +22,7 @@ export default function(ctx) {
         ctx.fillText("重新开始",window.innerWidth/2-42,window.innerHeight/2+23)
     }
   };
-  obj.img.src = "./images/Common.png";
+  obj.img.src = "images/Common.png";
 
   return obj;
 }

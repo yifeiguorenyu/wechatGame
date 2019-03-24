@@ -30,7 +30,7 @@ export default function(ctx) {
     }
   };
 
-  obj.bg.src = "./images/bg.jpg";
+  obj.bg.src = "images/bg.jpg";
   obj.bg.width = 512;
   obj.bg.height = 512;
   return obj;

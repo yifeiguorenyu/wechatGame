@@ -32,7 +32,7 @@ export default function(ctx) {
         }
     }
   };
-  obj.img.src = "./images/enemy.png";
+  obj.img.src = "images/enemy.png";
   obj.img.width = 120;
   obj.img.height = 79;
   obj.x = Math.random() * (window.innerWidth - obj.imgWidth);

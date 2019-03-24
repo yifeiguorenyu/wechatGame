@@ -75,7 +75,7 @@ export default function(ctx) {
        }
     }
   };
-  obj.planeImage.src = "./images/hero.png";
+  obj.planeImage.src = "images/hero.png";
   obj.planeImage.width = 186;
   obj.planeImage.height = 130;
 

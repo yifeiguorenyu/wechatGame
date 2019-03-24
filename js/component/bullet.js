@@ -24,13 +24,13 @@ export default function(ctx, px, py, pw) {
       );
     }
   };
-  obj.img.src = "./images/bullet.png";
+  obj.img.src = "images/bullet.png";
   obj.img.width = 62;
   obj.img.height = 108;
   obj.x = px + pw / 2 - obj.imgWidth / 2;
   obj.y = py+10;
   var biu = new Audio()
-  biu.src ="./audio/bullet.mp3"
+  biu.src ="audio/bullet.mp3"
   biu.play()
   return obj;
 }
